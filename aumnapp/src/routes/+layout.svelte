@@ -1,4 +1,7 @@
 <script>
+    import '$lib/styles/style.css'
+    import '$lib/styles/blobs.css'
+    import '$lib/styles/transitions.css'
 </script>
 
 <body>
