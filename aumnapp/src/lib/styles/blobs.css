@@ -6,7 +6,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
     grid-template-rows: repeat(auto-fit, minmax(200px, 300px));
-    overflow: hidden;
 }
 .absolute {
     position: absolute;

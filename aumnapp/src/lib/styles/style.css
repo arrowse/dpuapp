@@ -8,6 +8,10 @@ body {
     font-family: 'EB Garamond', serif;
     overflow-x: clip;
 }
+button {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.4rem;
+}
 
 p {
     font-size: 1.4rem;

@@ -1,5 +1,7 @@
 <script>
     import {fxCheck} from "$lib/stores";
+    let buttonClass = '';
+    $: buttonClass = $fxCheck ? 'vfx-on' : 'vfx-off';
 </script>
 <div class="headerContainer">
     <ul>
@@ -14,7 +16,7 @@
         </li>
     </ul>
 
-    <button on:click={() => fxCheck.toggle()}>FX: {$fxCheck ? 'on' : 'off'}</button>
+    <button class={buttonClass} on:click={() => fxCheck.toggle()}>VFX: {$fxCheck ? 'ON' : 'OFF'}</button>
 </div>
 <style>
     ul {
@@ -44,5 +46,35 @@
         background-color: var(--ctp-frappe-White);
         max-width: 140em;
         margin: 0 auto;
+    }
+
+    button {
+        background: none;
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    /*    animate padding change */
+        transition: padding 0.1s;
+    }
+
+    button:hover {
+        cursor: pointer;
+        padding: 0.5rem 1.6rem;
+    }
+    @media (max-width: 768px) {
+        .headerContainer {
+            flex-direction: column;
+        }
+        button {
+            margin-top: 1rem;
+        }
+    }
+    .vfx-on {
+        color: var(--ctp-frappe-teal);
+        border: 1px solid var(--ctp-frappe-teal);
+    }
+
+    .vfx-off {
+        color: var(--ctp-frappe-text);
+        border: 1px solid var(--ctp-frappe-text);
     }
 </style>
