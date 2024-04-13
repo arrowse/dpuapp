@@ -1,11 +1,16 @@
 import { writable } from 'svelte/store';
 
-function createFxCheck(toggle : boolean) {
-    const { subscribe, set } = writable(toggle);
+function createFxCheck(initialToggle : boolean) {
+    let toggle = initialToggle;
+    const { subscribe, set, update } = writable(toggle);
+
+    subscribe(value => {
+        toggle = value;
+    });
 
     return {
         subscribe,
-        toggle: () => set(!toggle),
+        toggle: () => update(value => !value),
     };
 }
 

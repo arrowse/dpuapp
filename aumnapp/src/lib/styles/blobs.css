@@ -10,9 +10,10 @@
 }
 .absolute {
     position: absolute;
-    top: 20%; !important;
+    top: 20%;
     inset: 0;
     justify-content: center;
+    pointer-events: none;
 }
 
 .justify-center {

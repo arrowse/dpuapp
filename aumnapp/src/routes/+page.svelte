@@ -1,9 +1,10 @@
 <script lang="ts">
     import aimg from '$lib/images/a.png'
-    $: background = true
+    import {fxCheck} from "$lib/stores";
+    $: console.log(fxCheck)
 </script>
 <html lang="en">
-{#if background === true}
+{#if $fxCheck === true}
 <div class="absolute puff-in-ver">
     <div class="absolutegrid justify-center">
         <div class="bg-shape1 bg-blue opacity-20 bg-blur"/>
@@ -22,7 +23,8 @@
         <div class="headertextcontainer">
             <h1 class="tracking-in-contract-bck-bottom">Passion comes in many forms,</h1>
         </div>
-        <p class="fade-in-delay">from editing videos, volunteering, spending times with friends, passion is the glue that holds our lives together,  </p>
+        <p class="fade-in-delay">from editing videos, volunteering, spending times with friends, passion is the glue that holds our lives together,rom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue trom editing videos, volunteering, spending times with friends, passion is the glue t </p>
+
     </div>
 </div>
 </html>
@@ -30,8 +32,13 @@
     .mainContent {
         display: flex;
         height: 100vh;
-        max-width: 35em;
+        max-width: 60em;
         margin: 0 auto;
+    }
+    @media (min-width: 720px) {
+        .mainContent {
+            width: 80%;
+        }
     }
 
     .alogo {
