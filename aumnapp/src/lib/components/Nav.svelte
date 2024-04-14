@@ -18,7 +18,7 @@
     </ul>
 
     <div class="buttons">
-        <a href="/save">[Export]</a>
+        <a href="/integrity">[Integrity]</a>
         <button class={toggleButtonState} on:click={() => fxCheck.toggle()}>VFX: {$fxCheck ? 'ON' : 'OFF'}</button>
     </div>
 </div>

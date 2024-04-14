@@ -7,11 +7,9 @@
 <div class="mainContent">
     <div class="page">
         <div class="headertextcontainer">
-            <h1 class="">Save as a PDF</h1>
         </div>
-        <p class="">To make it easier to review my application, you're able to <a>save the contents of this website in
-            a PDF</a>.<br /> In case you wish to verify the integrity of this site, such as ensuring the code has not been modified past
-            the deadline, you can <a href="https://github.com/arrowse/dpuapp" target="_blank">review the source code (and all changes) here.</a></p>
+        <p class="">In case you wish to verify the integrity of this site, such as ensuring the code has not been modified past
+            the deadline, you can <a href="https://github.com/arrowse/dpuapp" target="_blank">review the source code (and all changes) here.</a><br /><br />All credits are available on the about page.</p>
 
     </div>
 </div>
