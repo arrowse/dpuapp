@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
     grid-template-rows: repeat(auto-fit, minmax(200px, 300px));
+    overflow-x: clip;
 }
 .absolute {
     position: absolute;
@@ -17,6 +18,9 @@
 
 .justify-center {
     justify-content: center;
+}
+.offset-top {
+    margin-top: 25%;
 }
 .bg-shape1 {
     width: 500px;
@@ -227,4 +231,16 @@
 }
 .bg-lavender {
     background-color: var(--ctp-frappe-lavender);
+}
+.bg-yellow {
+    background-color: var(--ctp-frappe-yellow);
+}
+.bg-peach {
+    background-color: var(--ctp-frappe-peach);
+}
+.bg-maroon {
+    background-color: var(--ctp-frappe-maroon);
+}
+.bg-teal {
+    background-color: var(--ctp-frappe-teal);
 }
