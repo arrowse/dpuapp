@@ -1,7 +1,6 @@
 <script lang="ts">
     import type {PageData} from './$types';
     import {fxCheck} from "$lib/stores";
-    import aimg from "$lib/images/a.png";
 
     export let data: PageData;
 </script>
@@ -43,7 +42,7 @@
                 <p> hi </p>
             </li>
         </ul>
-
+<!--        <h2>Random things I made for fun</h2>-->
     </div>
 </div>
 
@@ -69,5 +68,9 @@
         margin: 0;
         color: bisque;
     }
-
+    h2 {
+        color: bisque;
+        max-width: 60em;
+        margin: 2em auto;
+    }
 </style>
