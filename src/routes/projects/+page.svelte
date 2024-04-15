@@ -1,7 +1,6 @@
 <script lang="ts">
     import type {PageData} from './$types';
     import {fxCheck} from "$lib/stores";
-    import clickin from "$lib/images/clickin.gif";
     import bread1 from "$lib/images/bread1.jpg";
     import bread2 from "$lib/images/bread2.jpg";
     import bread3 from "$lib/images/bread3.jpg";
@@ -36,7 +35,7 @@
                         <br />Every  day, we would arrive and fill out a google form, staff would then import the submissions to a google sheet and tally the data. Click-in makes it easier for students,
                         since your information is saved after your first login, and comes with a dashboard that collects and
                         counts everything automatically.</p>
-                    <img src={clickin} alt="clickin" class="clickin"/>
+                    <img src="https://s12.gifyu.com/images/SZk11.gif" alt="clickin" class="clickin"/>
                 </div>
             </li>
             <li>
