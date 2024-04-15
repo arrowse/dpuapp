@@ -67,7 +67,7 @@
                 <h2>Policy Debate & Judging</h2>
                 <p>I helped start the debate team at my school two years ago, since then I’ve worked my way up from
                     novice and varsity, and began teaching others how to debate in order to help grow the club before I
-                    leave. Additionally, I also volunteer at my local debate circuit to help judge Novice and junior varsity debates.</p>
+                    leave. Additionally, I also volunteer at my local debate circuit to help judge novice and junior varsity debates.</p>
             </li>
             <li>
                 <h2>Tournament Organization</h2>
